@@ -2,3 +2,37 @@
     font-size: 4vh;
     color: blue;
 }
+.name{
+    font-size: 4vh;
+    color: red;
+    width: 50vw;
+    box-shadow: 10px 10px 15px #000;
+    background-color: aliceblue;
+    font-family: "Oleo Script Swash Caps",cursive;
+    border: 2px solid #ff00ff;
+
+
+}
+.normal-text{
+    width: fit-content;
+    font-family: "Oleo Script Swash Caps",cursive;
+    font-size: 3vh;
+    display: flex;
+    flex-direction: row;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.red-box{
+    height: 7vh;
+    width: 5vw;
+    background-color: #000;
+    color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
