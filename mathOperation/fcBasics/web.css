@@ -1,0 +1,43 @@
+.grid-container{
+    height: 95vh;
+    width: 20vw;
+    margin: auto;
+    box-shadow: 0 0 10px #ff00ff;
+    display: grid;
+    grid-template-columns: 0.09fr 2fr 0.091fr;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.3fr 2fr;
+    background-color: #eceae8;
+    border-radius: 3vh;
+}
+
+
+.cell-1{
+   height: 5vh;
+   width: 5vh;
+   margin: auto;
+   padding: 0px;
+   grid-row: 2/span 1
+}
+
+.cell-2{
+   font-size: 2vh;
+   grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cell-3{
+    font-size: 2vh;
+    grid-column: 2 / span 1;
+    grid-row: 3 / span 1;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cell-4{
+  
+    grid-column: 2 / span 1;
+    grid-row: 4 / span 1;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
